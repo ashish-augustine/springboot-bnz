@@ -14,7 +14,7 @@ import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import reactor.core.publisher.Mono;
-
+    
 import java.time.Duration;
 import java.time.LocalDateTime;
 
