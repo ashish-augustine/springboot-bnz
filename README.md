@@ -1,3 +1,3 @@
-# Spring Boot Bank NewZealand
+# Spring Boot Bank New Zealand
 
 ![Image](https://github.com/user-attachments/assets/84ab954f-ed08-493d-98e0-6890ef6e65e1)
