@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.function.Function;
 
-@Configuration
+@Configuration 
 public class MessageFunctions {
 
     private static final Logger log = LoggerFactory.getLogger(MessageFunctions.class);
