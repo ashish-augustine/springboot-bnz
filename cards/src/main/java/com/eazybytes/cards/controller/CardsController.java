@@ -26,7 +26,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author Ashish Augustine
+ * @author Ashish Augustine 
  */
 
 @Tag(
@@ -55,10 +55,7 @@ public class CardsController {
     @Autowired
     private CardsContactInfoDto cardsContactInfoDto;
 
-    @Operation(
-            summary = "Create Card REST API",
-            description = "REST API to create new Card inside EazyBank"
-    )
+   
     @ApiResponses({
             @ApiResponse(
                     responseCode = "201",
