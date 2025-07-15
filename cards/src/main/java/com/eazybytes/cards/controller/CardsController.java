@@ -55,7 +55,10 @@ public class CardsController {
     @Autowired
     private CardsContactInfoDto cardsContactInfoDto;
 
-   
+    @Operation(
+            summary = "Create Card REST API",
+            description = "REST API to create new Card inside EazyBank"
+    )
     @ApiResponses({
             @ApiResponse(
                     responseCode = "201",
